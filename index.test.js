@@ -2,7 +2,7 @@ const checkCashRegister = require("./index");
 
 describe("cash-register", () => {
   it("should not throw", () => {
-    expect(() => checkCashRegister()).not.toThrow();
+    expect(() => checkCashRegister(19.5, 20, [])).not.toThrow();
   });
   it("should be a function", () => {
     expect(typeof checkCashRegister).toEqual("function");
