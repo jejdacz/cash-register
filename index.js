@@ -32,7 +32,7 @@ module.exports = (price, cash, cid) => {
         change[i][1] += u[1];
       }
     });
-    console.log({ price, cash, reminder, change, cid });
+    //console.log({ price, cash, reminder, change, cid });
     return [reminder, cid, change];
   };
 
